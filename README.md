@@ -1,59 +1,56 @@
-# Data Structures and Algorithms Lab
+# Data Structures and Algorithms
 
-**Student:** Kshitiz Reddy  
-**Registration No.:** A26MTAI0008  
-**Program:** M.Tech Artificial Intelligence  
-**University:** Bennett University
+This is my **Data Structures and Algorithms (DSA)** lab repository for the M.Tech Artificial Intelligence program at Bennett University.
 
-## About
+The repo contains the Python implementations I’ve worked on for the DSA practicals, along with a short reference to the main concepts and complexities covered in each lab.
 
-This repository contains laboratory implementations for **Data Structures and Algorithms (DSA)**. It focuses on implementing and understanding fundamental data structures, graph traversals, shortest-path algorithms, and minimum spanning tree algorithms.
+**Kshitiz Reddy** · A26MTAI0008  
+M.Tech Artificial Intelligence · Bennett University
 
-## Lab Index
+## Labs
 
-| Lab | Topic | Main Concepts |
+| Lab | Topic | Main idea |
 |---|---|---|
 | Lab 1 | Stack and Queue using Arrays | LIFO, FIFO, array-based implementation |
-| Lab 2 | BFS, DFS on a Tree, and Occurrences Counter | Breadth-first search, depth-first search, traversal |
+| Lab 2 | BFS, DFS on a Tree + Count Occurrences | Tree traversal and searching |
 | Lab 3 | Bellman-Ford & Dijkstra | Single-source shortest paths |
-| Lab 4 | Kruskal's & Prim's MST | Minimum spanning trees, greedy algorithms |
+| Lab 4 | Kruskal's & Prim's Algorithm | Minimum spanning trees and greedy methods |
 
-## Algorithms and Complexity
+## Complexity reference
 
-| Algorithm / Structure | Typical Time Complexity |
+These are the standard asymptotic bounds for the algorithms used in the labs. The exact cost can vary with the data structure or representation used.
+
+| Algorithm / Structure | Typical time complexity |
 |---|---|
-| Stack / Queue using Array | O(1) for basic push/pop or enqueue/dequeue operations |
-| BFS | O(V + E) with adjacency-list representation |
-| DFS | O(V + E) with adjacency-list representation |
+| Stack / Queue using Array | O(1) for basic operations |
+| BFS | O(V + E) |
+| DFS | O(V + E) |
 | Bellman-Ford | O(VE) |
-| Dijkstra | O((V + E) log V) with a suitable priority queue implementation |
+| Dijkstra | O((V + E) log V) with a suitable priority queue |
 | Kruskal | O(E log E) |
-| Prim | O(E log V) with a suitable priority queue implementation |
+| Prim | O(E log V) with a suitable priority queue |
 
-*Complexities are standard asymptotic bounds; the exact behavior can depend on the representation used in the implementation.*
+## Files
 
-## Repository Structure
+The labs are kept as separate Python files so that each practical can be opened, understood, and run independently.
 
 ```text
-.
+Data-Structures-Algorithms/
 ├── LAB 1 Stack and Queue using Arrays.py
 ├── LAB 2 BFS & DFS on a Tree + Count Occurrences.py
 ├── LAB 3 Bellman-Ford & Dijkstra.py
 ├── LAB 4 Kruskal's & Prim's Algorithm (MST).py
-└── README.md
+├── README.md
+└── .gitignore
 ```
 
-## Learning Objectives
+## What I’m practicing
 
-- Implement fundamental data structures using Python.
-- Understand graph representations and traversal techniques.
-- Apply shortest-path algorithms to weighted graphs.
-- Understand and implement minimum spanning tree algorithms.
-- Analyze algorithms using asymptotic time complexity.
-
-## Notes
-
-The lab files are kept as individual Python programs so each practical can be executed and reviewed independently. Existing lab implementations are preserved as coursework submissions.
+- Implementing data structures and algorithms in Python
+- Tree and graph traversal
+- Shortest-path algorithms
+- Minimum spanning trees
+- Understanding and comparing algorithm complexity
 
 ## Author
 
