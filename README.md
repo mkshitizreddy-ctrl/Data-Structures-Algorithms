@@ -18,17 +18,21 @@ M.Tech Artificial Intelligence · Bennett University
 
 ## Complexity reference
 
-These are the standard asymptotic bounds for the algorithms used in the labs. The exact cost can vary with the data structure or representation used.
+These are the standard bounds for the algorithms used in the labs. The exact cost depends on the implementation and data structure used here.
 
-| Algorithm / Structure | Typical time complexity |
+| Algorithm / Structure | Time complexity in this implementation |
 |---|---|
-| Stack / Queue using Array | O(1) for basic operations |
-| BFS | O(V + E) |
-| DFS | O(V + E) |
+| Stack push / pop / peek | O(1) |
+| Queue enqueue / front | O(1) |
+| Queue dequeue | O(n) because it uses `pop(0)` on a Python list |
+| BFS | O(V²) in this implementation because it uses a list queue and linear visited checks |
+| DFS | O(V²) in this implementation because visited checks use a list |
 | Bellman-Ford | O(VE) |
-| Dijkstra | O((V + E) log V) with a suitable priority queue |
+| Dijkstra | O((V + E) log V) with `heapq` and an adjacency list |
 | Kruskal | O(E log E) |
-| Prim | O(E log V) with a suitable priority queue |
+| Prim | O(E log V) with `heapq` and an adjacency list |
+
+The BFS/DFS implementations are kept as submitted for the lab. The table above reflects their actual Python implementation rather than the ideal complexity of a version using `deque` or a set.
 
 ## Files
 
